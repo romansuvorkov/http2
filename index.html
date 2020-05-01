@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AHJ-HW</title>
+<link href="main.css" rel="stylesheet"></head>
+<body>
+    
+  <div class="help_desk">
+    <div class="header_container">
+        <span class="add_button">Добавить тикет</span>
+    </div>
+    <div class="tickets_list">
+      <div class="list_item">
+      </div>
+    </div>
+    </div>
+        <form class="input_form none">
+            <span class="form_title">Добавить тикет</span>
+            <span class="input_title">Краткое описание:</span>
+            <textarea class="short_description"></textarea>           
+            <span class="input_title">Подробное описание:</span>
+            <textarea class="long_description"></textarea>
+            <button class="form_btn reset" type="reset">Отмена</button>
+            <button class="form_btn save" type="submit">Сохранить</button>
+        </form>
+        <form class="redact_form none">
+            <span class="form_title">Изменить тикет</span>
+            <span class="input_title">Краткое описание:</span>
+            <textarea class="short_description"></textarea>
+            <span class="input_title">Подробное описание:</span>
+            <textarea class="long_description"></textarea>
+            <button class="form_btn reset" type="reset">Отмена</button>
+            <button class="form_btn save" type="submit">Сохранить</button>
+        </form>
+        <form class="delete_form none">
+          <span class="form_title">Удалить тикет</span>
+          <span class="input_title">Вы уверены что хотите удалить тикет? Это действие необратимо</span>
+          <button class="form_btn reset" type="reset">Отмена</button>
+          <button class="form_btn save" type="submit">Удалить</button>
+      </form>
+        
+  </div>
+
+    
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
