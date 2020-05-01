@@ -1,6 +1,6 @@
 export default class Requests {
   constructor() {
-    this.server = 'https://http-helpdesk.herokuapp.com/';
+    this.server = 'https://http-helpdesk.herokuapp.com';
   }
 
   createTicket(name, description) {
