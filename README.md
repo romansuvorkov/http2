@@ -1,3 +1,8 @@
+https://romansuvorkov.github.io/http2
+
+[![Build status](https://ci.appveyor.com/api/projects/status/46ly5uc4w34637fw?svg=true)](https://ci.appveyor.com/project/romansuvorkov/http2)
+
+
 Правила сдачи задания:
 
 1. **Важно**: в рамках этого ДЗ можно использовать npm (а значит, никакого `yarn.lock` в репозитории быть не должно)
